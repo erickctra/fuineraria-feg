@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funerária FEG | Serviço funerário completo</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.png">
+</head>
+
+<body>
+    <div class="footer-fixed">
+        <p>Atendimento 24 horas em SP</p>
+    </div>
+
+    <div id="dialog-whatsapp" class="content-whatsapp">
+        <div class="header">
+            <p>Iniciar Conversa</p>
+            <p>Oi! Clique abaixo para uniciar uma
+                conversa via Whatsapp</p>
+        </div>
+        <p>Normalmente respondemos em alguns minutos.</p>
+        <a class="card" target="_blank" href="https://web.whatsapp.com/send?phone=5511943176705&text=Ol%C3%A1!">
+            <div class="pic"></div>
+            <div class="info">
+                <p>(11) Numero</p>
+                <p>Funeraria FEG</p>
+            </div>
+            <img src="/assets/icons/whatsapp.svg" alt="">
+        </a>
+    </div>
+
+    <div id="dialog-whatsapp-group" class="dialog-whatsapp">
+        <button onclick="showWhatsapp()" id="dialog-whatsapp-button"></button>
+    </div>
+
+    <header id="header">
+        <div class="row">
+            <!-- <p>Embu das artes - São Paulo</p> -->
+            <img loading="lazy" src="./assets/logo.jpg" alt="logo funeraria feg" srcset="">
+        </div>
+        <hr>
+        <div class="row">
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="planos.html">Planos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <hr>
+    </header>
+    <!-- end of header -->
+
+    <section class="home">
+        <div class="box">
+            <div class="group">
+                <h1>Cuidado compassivo em momentos difíceis.</h1>
+                <p>Atendimento Humanizado, com foco em apoiar você nesse momento! Conte Conosco. Pagamento facilitado no
+                    Pix ou até 10x no Cartão</p>
+            </div>
+            <div class="group">
+                <div class="itens">
+                    <p><img src="./assets/icons/flight.svg" alt=""> Translado aéreo e terrestre</p>
+                    <p><img src="./assets/icons/care.svg" alt=""> Funeral completo</p>
+                </div>
+                <a target="_blank" href="https://web.whatsapp.com/send?phone=5511943176705&text=Ol%C3%A1!">Entrar em
+                    contato <img src="./assets/icons/Arrow.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="box">
+        </div>
+    </section>
+
+    <section class="phrase">
+        <p>A FEG tem como compromisso trazer apoio e tranquilidade aos familiares remanescentes, assim você e sua
+            família não precisam se preocupar com as providencias administrativas.</p>
+    </section>
+
+    <section id="about" class="empresa">
+        <div class="title">
+            <h1>Quem <br> Somos?</h1>
+            <div class="line"></div>
+            <img src="./assets/icons/build.svg" alt="">
+        </div>
+
+        <p>
+            A FEG Funerária, Serviço e Assistência Funerária 24 Horas, surgiu da observância na carência de uma empresa
+            que pudesse prestar serviços funerários de qualidade e na necessidade de oferecer um amparo e tranquilidade
+            a família no momento da morte de um ente querido.
+        </p>
+        <p>Combinando recursos humanos e tecnológicos, criamos uma empresa organizada e estruturada para prestar
+            serviços com altíssimo padrão de qualidade e eficiência, e na observância a um mercado globalizado e
+            dinâmico. Desenvolvemos padrões de funerais, para atender características tanto das pessoas como de suas
+            religiões ou credos, sem desprezar as peculiaridades éticas e regionais das origens dos familiares
+            remanescentes.</p>
+
+        <div class="items">
+            <div class="item">
+                <img src="./assets/icons/CheckCircle.svg" alt="">
+
+                <p>Possuímos <b>laboratório próprios</b> para realizar
+                    embalsamamento e tanatopraxia (para embarque aéreo,
+                    terrestre,
+                    nacional e internacional)</p>
+            </div>
+            <div class="item">
+                <img src="./assets/icons/CheckCircle.svg" alt="">
+
+                <p>Contamos com <b>Translado Funerário completo</b>, tendo frota de carros apropriados com vistoria pelo
+                    INMETRO
+                </p>
+            </div>
+            <div class="item">
+                <img src="./assets/icons/CheckCircle.svg" alt="">
+
+                <p>Prestamos serviços para <b>todas seguradoras e sindicatos</b>. Se você tem um <b>seguro de vida</b>,
+                    cuidamos
+                    de
+                    tudo para
+                    você!</p>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+    <section id="services" class="services">
+        <h1>Nossos Serviços</h1>
+
+        <div class="content">
+            <a onclick="showModal('funeral')" class="item">
+                <img src="./assets/Frame 44.png" alt="">
+                <p>Funeral e Sepultamento</p>
+            </a>
+            <a href="translado.html" class="item">
+                <img src="./assets/Group 72.jpg" alt="">
+                <p>Translado Nacional e Internacional</p>
+
+            </a>
+            <a onclick="showModal('assistencia')" class="item">
+                <img src="./assets/Frame 46.png" alt="">
+
+                <p>Assistência Familiar</p>
+            </a>
+            <a onclick="showModal('empresas')" class="item">
+                <img src="./assets/Frame 49.png" alt="">
+
+                <p>Para Empresas</p>
+            </a>
+            <a onclick="showModal('cremacao')" class="item">
+                <img src="./assets/Frame 47.png" alt="">
+
+                <p>Cremação com sala VIP</p>
+
+            </a>
+            <a onclick="showModal('tanatopraxia')" class="item">
+                <img src="./assets/Frame 48.png" alt="">
+
+                <p>Tanatopraxia e Embalsamento</p>
+
+            </a>
+        </div>
+    </section>
+
+    <dialog id="dialog-funeral">
+        <div>
+            <div class="title">
+                <h1>Funeral e Sepultamento</h1>
+                <p>Temos funcionários treinados e aptos a providenciar toda a parte burocrática</p>
+            </div>
+            <hr>
+
+            <div class="content">
+                <img src="./assets/Frame 44.png" alt="">
+
+                <ul>
+                    <li> <img src="./assets/icons/AsteriskSimple.svg" alt="">Trabalhamos com equipes para atendimento
+                        por todo Brasil.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt=""> Auxiliamos a família com toda documentação
+                        necessária.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt=""> Organizamos velórios e local de
+                        sepultamento como a família enlutada desejar.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt=""> Velórios em todas as regiões do Brasil.
+                    </li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt=""> Agente social para atender todas as
+                        religiões e crenças.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt=""> Sepultamento com ou sem velório.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt=""> Cemitérios ou Crematórios por todo Brasil.
+                    </li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt=""> Fornecimento de coroas de flores.</li>
+                </ul>
+            </div>
+            <form method="dialog">
+                <button onclick="closeModal(1)">Voltar para o site <img src="./assets/icons/ArrowUDownLeft.svg"
+                        alt=""></button>
+            </form>
+        </div>
+    </dialog>
+    <!-- <dialog id="dialog-2">
+        <h1>2</h1>
+        <form method="dialog">
+            <button onclick="closeModal(2)">Voltar para o site <img src="./assets/icons/ArrowUDownLeft.svg"
+                    alt=""></button>
+        </form>
+    </dialog> -->
+    <dialog id="dialog-assistencia">
+        <div>
+            <div class="title">
+                <h1>Assistência Familiar</h1>
+                <p>Temos funcionários treinados e aptos a providenciar toda a parte burocrática</p>
+            </div>
+            <hr>
+
+            <div class="content">
+                <img src="./assets/Frame 46.png" alt="">
+
+                <ul>
+                    <li> <img src="./assets/icons/AsteriskSimple.svg" alt="">Para receber nossos serviços, basta ligar
+                        na nossa Central de Atendimento que funciona 24 horas
+                        ininterruptamente, informar os dados pessoais que a partir dai nossos técnicos cuidarão de todos
+                        os
+                        detalhes para realizar a cerimônia fúnebre.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt="">Com a Funerária FEG você e sua família
+                        somente se preocuparão em avisar e dar apoio emocional aos
+                        parentes e amigos.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt="">Temos prioridade em liberar as pessoas da
+                        burocracia e de gastos abusivos, que estão sujeitos nestas
+                        ocasiões, principalmente pela falta de conhecimento.</li>
+
+                </ul>
+            </div>
+            <form method="dialog">
+                <button onclick="closeModal(3)">Voltar para o site <img src="./assets/icons/ArrowUDownLeft.svg"
+                        alt=""></button>
+            </form>
+        </div>
+    </dialog>
+    <dialog id="dialog-empresas">
+        <div>
+            <div class="title">
+                <h1>Para Empresas</h1>
+                <p>Temos funcionários treinados e aptos a providenciar toda a parte burocrática</p>
+            </div>
+            <hr>
+
+            <div class="content">
+                <img src="./assets/Frame 49.png" alt="">
+
+                <ul>
+                    <li> <img src="./assets/icons/AsteriskSimple.svg" alt="">A hora é essa, você empresário pode
+                        possibilitar melhor integração entre empresa/funcionário, oferecendo oportunidade de mais
+                        vantagens por menos contribuição.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt="">A empresa pode inscrever seus proprietários,
+                        diretores, funcionários, incluindo ou não familiares.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt="">Todos os inscritos poderão usufruir dos
+                        muitos benefícios em que o plano oferece, pense nisso.</li>
+                </ul>
+            </div>
+            <form method="dialog">
+                <button onclick="closeModal(4)">Voltar para o site <img src="./assets/icons/ArrowUDownLeft.svg"
+                        alt=""></button>
+            </form>
+        </div>
+    </dialog>
+    <dialog id="dialog-cremacao">
+        <div>
+            <div class="title">
+                <h1>Cremação</h1>
+                <p>Temos funcionários treinados e aptos a providenciar toda a parte burocrática</p>
+            </div>
+            <hr>
+
+            <div class="content">
+                <img src="./assets/Frame 47.png" alt="">
+
+                <ul>
+                    <li> <img src="./assets/icons/AsteriskSimple.svg" alt="">Trabalhamos com equipes para atendimento
+                        por todo Brasil.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt="">Auxiliamos a família com toda documentação
+                        necessária.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt="">Velórios em todas as regiões do Brasil.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt="">Mestre de cerimonias para atender todas as
+                        religiões e crenças.
+                    </li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt="">Cremação com ou sem velório.</li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt="">Crematórios em diversas regiões do Brasil.
+                    </li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt="">Fornecimento de coroas de flores.
+                    </li>
+                </ul>
+            </div>
+            <form method="dialog">
+                <button onclick="closeModal(5)">Voltar para o site <img src="./assets/icons/ArrowUDownLeft.svg"
+                        alt=""></button>
+            </form>
+        </div>
+    </dialog>
+    <dialog id="dialog-tanatopraxia">
+        <div>
+            <div class="title">
+                <h1>Tanatopraxia e Embalsamento</h1>
+                <p>Temos funcionários treinados e aptos a providenciar toda a parte burocrática</p>
+            </div>
+            <hr>
+
+            <div class="content">
+                <img src="./assets/Frame 48.png" alt="">
+
+                <ul>
+                    <li> <img src="./assets/icons/AsteriskSimple.svg" alt="">Contamos também com serviço de tanatopraxia
+                        e embalsamamento, para realizar os embarques aéreo e terrestre, nacional e internacional.
+                    </li>
+                    <li><img src="./assets/icons/AsteriskSimple.svg" alt="">Para isso possuímos laboratório próprio para
+                        realizar o serviço.</li>
+                </ul>
+            </div>
+            <form method="dialog">
+                <button onclick="closeModal(6)">Voltar para o site <img src="./assets/icons/ArrowUDownLeft.svg"
+                        alt=""></button>
+            </form>
+        </div>
+    </dialog>
+    <!-- 
+    <section class="beneficios">
+        <h1>Garantimos o melhor amparo para sua família</h1>
+    </section> -->
+    <!-- footer -->
+    <hr>
+    <section id="pre-contact" class="pre-contact">
+        <div class="content">
+            <h1>Vamos resolver seu problema?</h1>
+            <p>Veja os nossos planos funerários</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="links">
+            <div class="group">
+                <h1>Você pode me encontrar nessas redes sociais:</h1>
+                <ul>
+                    <li><img src="./assets/icons/Phone.svg" alt=""><a href="tel:+5511999107940">(11)99910-7940</a></li>
+                    <li><img src="./assets/icons/Phone.svg" alt=""><a href="tel:+551146614098">(11)4661-4098</a></li>
+                    <li><img src="./assets/icons/Envelope.svg" alt=""><a
+                            href="mailto:feg.funeraria@uol.com.br">feg.funeraria@uol.com.br</a></li>
+                    <li><img src="./assets/icons/MapTrifold.svg" alt=""><a href="#">Embu das artes - São Paulo</a></li>
+                    <!-- <li><a href="#"><img src="./assets/logo.webp" alt="" srcset=""></a></li> -->
+                    <!-- <li>CRECISP</li> -->
+                </ul>
+            </div>
+
+        </div>
+        <div class="message">
+            <a class="whatsapp" target="_blank"
+                href="https://web.whatsapp.com/send?phone=5511943176705&text=Ol%C3%A1!">Entre em contato pelo whatsapp
+                <img src="./assets/icons/whatsapp-dark.svg" alt=""></a>
+
+            <p>“ Lidando com os detalhes para que você possa lidar com o coração.“
+            </p>
+            <!-- <p>Ou preencha o formulario abaixo ou faça uma ligação para iniciarmos:</p>
+            <form action="">
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Telefone">
+                <textarea name="" id="" placeholder="Mensagem"></textarea>
+
+                <input type="submit" value="Enviar Mensagem">
+            </form> -->
+        </div>
+    </section>
+
+    <footer>
+        Todos os direitos reservados Funeraria FEG - 2023
+    </footer>
+</body>
+<script src="/js/main.js"></script>
+
+</html>
